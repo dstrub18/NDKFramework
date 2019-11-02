@@ -71,4 +71,5 @@ NPN      := Q#<NAME>    NC NB NE NS    MODEL
 Triode   := XU#<NAME>   NA NG NC       MODEL
 Opamp    := XUOPA<NAME> NI I  VCC   VEE   OUT   MODEL
 ```
-
+## Potentiometer handling in C++
+* As of now, the only way to let the user change the circuit behavior is via potentiometers. These can be accessed by creating in a slider in the `PluginEditor` and call the function `StateSpaceProcessor::updatePotValues` with the corresponding index for each potentiometer.
