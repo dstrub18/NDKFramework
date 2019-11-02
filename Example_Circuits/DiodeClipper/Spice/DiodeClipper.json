@@ -1,0 +1,79 @@
+{
+    "Nr": [
+        [
+            -1.0,
+            1.0
+        ]
+    ],
+    "Nx": [
+        [
+            0.0,
+            -1.0
+        ]
+    ],
+    "Nv": [],
+    "No": [
+        [
+            0.0,
+            1.0
+        ]
+    ],
+    "Nn": [
+        [
+            0.0,
+            1.0
+        ],
+        [
+            0.0,
+            -1.0
+        ]
+    ],
+    "Nu": [
+        [
+            1.0,
+            0.0
+        ]
+    ],
+    "Gr": [
+        [
+            0.00045454545454545455
+        ]
+    ],
+    "Xlc": [
+        [
+            1e-08
+        ]
+    ],
+    "Rv0": [],
+    "Z": [
+        [
+            1.0
+        ]
+    ],
+    "Nopao": [],
+    "Nopai": [],
+    "numNodes": 2,
+    "numResistors": 1,
+    "numReactives": 1,
+    "numInputs": 1,
+    "numSources": 1,
+    "numPotentiometers": 0,
+    "numOutputs": 1,
+    "numNonlinears": 2,
+    "sourceVoltages": [
+        [
+            0.0
+        ]
+    ],
+    "numOpamps": 0,
+    "nodeNames": [
+        "N001",
+        "VOUT0"
+    ],
+    "potentiometerNames": [],
+    "nonlinearModels": [
+        "1N914",
+        "1N914"
+    ],
+    "opampModels": []
+}

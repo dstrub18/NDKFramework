@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>CommonCathodeAmplifier - AU.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>CommonCathodeAmplifier - All.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>CommonCathodeAmplifier - Shared Code.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>CommonCathodeAmplifier - Standalone Plugin.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>CommonCathodeAmplifier - VST3.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2E9BF44EF73F2C48B9E24600</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8F3A20F8A2E33FE1668627A7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C5E00393E29472F0B689824B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E51ED3D248FD43D245E6946C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EB074CFF239B69895DABCB37</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

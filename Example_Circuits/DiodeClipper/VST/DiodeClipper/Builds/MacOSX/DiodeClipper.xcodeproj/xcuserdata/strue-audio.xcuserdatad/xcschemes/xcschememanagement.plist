@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>DiodeClipper - AU.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>DiodeClipper - All.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>DiodeClipper - Shared Code.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>DiodeClipper - Standalone Plugin.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>DiodeClipper - VST3.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>3354AD9BC2335A3BF6123698</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>66606F4E4F3FE377FBF59224</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>77C1C3A3486411CC86FF618B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B9C3F4C4D66F34ADC177A5D0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DCFE675728C8AA913F531962</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="Kph7a6" name="CommonEmitterAmplifier" projectType="audioplug"
+              jucerVersion="5.4.3" headerPath="/usr/local/include/eigen3/Eigen&#10;/usr/local/include/nlohmann&#10;">
+  <MAINGROUP id="fx7WLn" name="CommonEmitterAmplifier">
+    <GROUP id="{2B5C8D89-C3D3-37F5-2DA5-F0DACACAB209}" name="Source">
+      <FILE id="bTLBZF" name="CircuitParser.cpp" compile="1" resource="0"
+            file="Source/CircuitParser.cpp"/>
+      <FILE id="hw1GNz" name="CircuitParser.h" compile="0" resource="0" file="Source/CircuitParser.h"/>
+      <FILE id="QNpqWI" name="ConstantMatrices.cpp" compile="1" resource="0"
+            file="Source/ConstantMatrices.cpp"/>
+      <FILE id="qpGXvc" name="ConstantMatrices.h" compile="0" resource="0"
+            file="Source/ConstantMatrices.h"/>
+      <FILE id="FVxc81" name="Diode1N914.cpp" compile="1" resource="0" file="Source/Diode1N914.cpp"/>
+      <FILE id="Fc3qle" name="Diode1N914.h" compile="0" resource="0" file="Source/Diode1N914.h"/>
+      <FILE id="VKfuIU" name="NewtonRaphson.cpp" compile="1" resource="0"
+            file="Source/NewtonRaphson.cpp"/>
+      <FILE id="bUmCka" name="NewtonRaphson.h" compile="0" resource="0" file="Source/NewtonRaphson.h"/>
+      <FILE id="mkxHD7" name="NonlinearComponent.cpp" compile="1" resource="0"
+            file="Source/NonlinearComponent.cpp"/>
+      <FILE id="YoK064" name="NonlinearComponent.h" compile="0" resource="0"
+            file="Source/NonlinearComponent.h"/>
+      <FILE id="toS0Hb" name="NonlinearComponentParser.cpp" compile="1" resource="0"
+            file="Source/NonlinearComponentParser.cpp"/>
+      <FILE id="xpYXpa" name="NonlinearComponentParser.h" compile="0" resource="0"
+            file="Source/NonlinearComponentParser.h"/>
+      <FILE id="gWF8Ub" name="NonlinearSolver.cpp" compile="1" resource="0"
+            file="Source/NonlinearSolver.cpp"/>
+      <FILE id="lLcbVz" name="NonlinearSolver.h" compile="0" resource="0"
+            file="Source/NonlinearSolver.h"/>
+      <FILE id="ZhCMQP" name="NoNonlinearity.cpp" compile="1" resource="0"
+            file="Source/NoNonlinearity.cpp"/>
+      <FILE id="jmolem" name="NoNonlinearity.h" compile="0" resource="0"
+            file="Source/NoNonlinearity.h"/>
+      <FILE id="K8QiZW" name="Npn2N2222.cpp" compile="1" resource="0" file="Source/Npn2N2222.cpp"/>
+      <FILE id="cpEP5P" name="Npn2N2222.h" compile="0" resource="0" file="Source/Npn2N2222.h"/>
+      <FILE id="D1aRsb" name="StateSpaceProcessor.cpp" compile="1" resource="0"
+            file="Source/StateSpaceProcessor.cpp"/>
+      <FILE id="IGrlWX" name="StateSpaceProcessor.h" compile="0" resource="0"
+            file="Source/StateSpaceProcessor.h"/>
+      <FILE id="xEgPCl" name="Triode12AX7.cpp" compile="1" resource="0" file="Source/Triode12AX7.cpp"/>
+      <FILE id="TMRdX2" name="Triode12AX7.h" compile="0" resource="0" file="Source/Triode12AX7.h"/>
+      <FILE id="WbHDck" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="yoPjip" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="PrG6CO" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="qllk3t" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+    <FILE id="WvyBnG" name="json.hpp" compile="0" resource="0" file="Source/json.hpp"/>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" optimisation="5"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../../../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../../../../../../../../../Applications/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <OSX/>
+  </LIVE_SETTINGS>
+  <JUCEOPTIONS JUCE_VST3_CAN_REPLACE_VST2="0" JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+</JUCERPROJECT>
