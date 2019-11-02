@@ -20,7 +20,7 @@ As well as the following libraries:
 ## Usage
 
 The NDKFramework facilitates the following workflow: 
-1. Design your circuit in LTSpice. Abide to the specified naming of the components, otherwise, they will not be parsed. Also refer to the list of currently supported components.
+1. Design your circuit in LTSpice. Abide to the specified [naming conventions](https://github.com/dstrub18/NDKFramework/blob/master/README.md#naming-conventions) of the components, otherwise, they will not be parsed. Also refer to the list of [currently supported components](https://github.com/dstrub18/NDKFramework/blob/master/README.md#currently-supported-components).
 2. Save the netlist of your circuit as follows:
     * Right-click on the editing panel -> View -> SPICE Netlist
     * CMD-S to save the netlist
