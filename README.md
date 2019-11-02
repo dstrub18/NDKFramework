@@ -49,7 +49,7 @@ The NDKFramework facilitates the following workflow:
 * ` # ` is any number (multiple digits are allowed)
 * N_FROM and N_TO are the nodes the component is connected from / to
 * All component groups are required to be **zero-indexed**
-* 
+* `VIN`is the entry point for the audio samples later on
 ```
 Resistor       := R#<NAME>    N_FROM N_TO    VALUE
 Capacitor      := C#<NAME>    N_FROM N_TO    VALUE
