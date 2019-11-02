@@ -22,7 +22,7 @@ The NDKFramework facilitates the following workflow:
     * CMD-S to save the netlist
 3. Export the netlist to a .json file as follows:
     * Open the terminal
-    * Type `python3 <relative-path-to-Main.py> <relative-path-to-netlist-file> <relative-desired-output-path>
+    * Type `python3 <relative-path-to-Main.py> <relative-path-to-netlist-file> <relative-desired-output-path> `
 4. Open the .json file in Matlab using the template files in this repository to 
     * As of now, you have to **explicitly** specify the equations for the nonlinear components you used in your circuit. Refer to the           example circuits.
 5. Open the NDKCircuitTemplate in the Projucer. in the `prepareToPlay()` method, specify the .json path in the stateSpaceProcessor constructor.
