@@ -1,6 +1,10 @@
 # NDKFramework
 Repository of the NDKFramework as showcased at Audio Developer Conference 2019
 
+## Purpose
+
+Analog circuit emulations can be achieved using State-space processing. However, prototyping in this domain can be cumbersome, as its computation is non-modular and for each circuit iteration, the necessary matrices have to be computed anew. The NDKFramework reduces this modularity issue by deriving the matrices from the netlist specifications of the circuit in the application LTSPice. A set of Matlab scripts and extensions to the JUCE framework allow for offline-debugging and real-time simulation of analog circuits.
+
 ## Dependencies
 
 The following applications are needed to use the NDKFramework: 
@@ -29,6 +33,42 @@ The NDKFramework facilitates the following workflow:
     * `stateSpaceProcessor = std::make_unique<StateSpaceProcessor>("path-to-file.json", sampleRate); `
 6. Build the project.
 
-## Purpose
-
 ## Currently supported components
+* Voltage Sources
+* Resistor
+* Potentiometers
+* Capacitor
+* Inductor
+* 1N914 Diode (Shockley equation)
+* 2N2222 NPN Transistor (Ebers-Moll equation)
+* 12AX7 Triode (Equations according [Dempwolf](http://recherche.ircam.fr/pub/dafx11/Papers/76_e.pdf))
+* Operational amplifier (Only linear behaviour)
+
+
+## Naming conventions
+* ` # ` is any number (multiple digits are allowed)
+* N_FROM and N_TO are the nodes the component is connected from / to
+* All component groups are required to be **zero-indexed**
+* 
+```
+Resistor       := R#<NAME>    N_FROM N_TO    VALUE
+Capacitor      := C#<NAME>    N_FROM N_TO    VALUE
+Inductor       := L#<NAME>    N_FROM N_TO    VALUE
+Voltage Input  := VIN#<NAME>  N_FROM N_TO
+Voltage Supply := VCC#<NAME>  N_FROM N_TO    <"DC">   VALUE
+```
+* As potentiometers are not natively supported in LTSpice, two resistors with the maximum and minimum value have to be created instead. 
+
+```
+Potentiometer Top := RT#<NAME> N_FROM N_TO VALUE
+Potentiometer Btm := RB#<NAME> N_FROM N_TO 
+
+Voltage Out := VOUT#<NAME> 
+Ground      := 0
+
+Diode    := D#<NAME>    N_FROM N_TO    MODEL
+NPN      := Q#<NAME>    NC NB NE NS    MODEL
+Triode   := XU#<NAME>   NA NG NC       MODEL
+Opamp    := XUOPA<NAME> NI I  VCC   VEE   OUT   MODEL
+```
+
