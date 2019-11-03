@@ -31,7 +31,7 @@ The NDKFramework facilitates the following workflow:
     * Specify the path to the `.json `file. Also load an audio file as input.
     * As of now, you have to **explicitly** specify the equations for the nonlinear components you used in your circuit. Refer to the           example circuits.
     * By running the simulation, you can see plots of voltages, currents, and states within the circuit
-5. Open the NDKCircuitTemplate in the Projucer. in the `prepareToPlay()` method, specify the .json path in the stateSpaceProcessor constructor as follows: 
+5. Open the NDKCircuitTemplate in the Projucer. in the `prepareToPlay()` method, specify the `.json ` path in the stateSpaceProcessor constructor as follows: 
     * `stateSpaceProcessor = std::make_unique<StateSpaceProcessor>("path-to-file.json", sampleRate); `
 6. Build the project.
 
