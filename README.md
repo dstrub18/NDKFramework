@@ -73,5 +73,6 @@ NPN      := Q#<NAME>    NC NB NE NS    MODEL
 Triode   := XU#<NAME>   NA NG NC       MODEL
 Opamp    := XUOPA<NAME> NI I  VCC   VEE   OUT   MODEL
 ```
+* For a comprehensive understanding of LTSpice abbreviations, please look [here](http://bwrcs.eecs.berkeley.edu/Classes/IcBook/SPICE/UserGuide/elements_fr.html?fbclid=IwAR1Vp1dBDk9oxgnC1lqnxfJvEzfL6ccTTzjXdqwHUVvBoiOIojku5Wr46lI).
 ## Potentiometer handling in C++
 * As of now, the only way to let the user change the circuit behavior is via potentiometers. These can be accessed by creating in a slider in the `PluginEditor` and call the function `StateSpaceProcessor::updatePotValues` with the corresponding index for each potentiometer.
