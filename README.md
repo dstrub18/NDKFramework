@@ -29,7 +29,7 @@ The NDKFramework facilitates the following workflow:
     * Type `python3 <relative-path-to-Main.py> <relative-path-to-netlist-file> <relative-desired-output-path> `
 4. Open the .json file in Matlab using the template files in this repository.
     * Specify the path to the `.json `file. Also load an audio file as input.
-    * As of now, you have to **explicitly** specify the equations for the nonlinear components you used in your circuit. Refer to the           example circuits.
+    * As of now, you have to **explicitly** specify the equations for the nonlinear components you used in your circuit. For reference,         please look at the           [example circuits](https://github.com/dstrub18/NDKFramework/tree/master/Example_Circuits).
     * By running the simulation, you can see plots of voltages, currents, and states within the circuit
 5. Open the NDKCircuitTemplate in the Projucer. in the `prepareToPlay()` method, specify the `.json ` path in the stateSpaceProcessor constructor as follows: 
     * `stateSpaceProcessor = std::make_unique<StateSpaceProcessor>("path-to-file.json", sampleRate); `
