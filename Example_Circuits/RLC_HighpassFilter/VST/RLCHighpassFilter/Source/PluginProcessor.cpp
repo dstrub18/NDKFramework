@@ -97,7 +97,7 @@ void RlchighpassFilterAudioProcessor::prepareToPlay (double sampleRate, int samp
 {
     // Use this method as the place to do any pre-playback
     // initialisation that you need..
-    stateSpaceProcessor = std::make_unique<StateSpaceProcessor>("/Users/danielstrubig/Documents/Project_Spring_19/NDKFramework/Evaluation/RLC_HighpassFilter/Spice/RLCHighpassFilter.json", sampleRate);
+    stateSpaceProcessor = std::make_unique<StateSpaceProcessor>("/abs/path/to/file.json", sampleRate);
     stateSpaceProcessor->printMatrices();
 }
 

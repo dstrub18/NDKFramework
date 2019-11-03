@@ -77,49 +77,49 @@
 			isa = PBXBuildFile;
 			fileRef = D970F76A01DBD04327268512;
 		};
-		FDEE2BF81BF62F0C645B7FB5 = {
+		D49258A3E1F7F7120ECDA9DE = {
 			isa = PBXBuildFile;
-			fileRef = 60B77688DA779DB4F33AE98B;
+			fileRef = CEC02C590F5C25BCE24BEF13;
 		};
-		C52DF206A00C2EB2C138364C = {
+		8E0BE5AF4F44A444FE3E0FCB = {
 			isa = PBXBuildFile;
-			fileRef = 6EB3B99CC27ACD4FD7D3A808;
+			fileRef = C8CB63FEEE46F64AC0566327;
 		};
-		D04A57350F2C557093B0476F = {
+		735E59F8DBDDB7B6BC749766 = {
 			isa = PBXBuildFile;
-			fileRef = 3DB454133A230ECCDF2C1FBE;
+			fileRef = 683939A06B02055B855753FD;
 		};
-		F2CCE6F81A8DA21F963DEE23 = {
+		C4022B18482D688F5261EE1B = {
 			isa = PBXBuildFile;
-			fileRef = 5E79D972244880720136352F;
+			fileRef = B1019616846BC618B0942F4C;
 		};
-		02E0EBEFA9FA6B9E1F594A52 = {
+		1C9E96815C15267872CB62D0 = {
 			isa = PBXBuildFile;
-			fileRef = 05808AA6E6B516A67ECDDB55;
+			fileRef = 8FAFB3355B3BD7F53EE4229E;
 		};
-		FEDB43D88ADBB3C466D824F8 = {
+		EB8D3DAAE374794C67C9385A = {
 			isa = PBXBuildFile;
-			fileRef = 824FC337361157FE4B720CC7;
+			fileRef = A694D28F0880A6DE50FFADC0;
 		};
-		62C82325FDCD325255621CF1 = {
+		F66B6EC9AB19DF3D9221AFD0 = {
 			isa = PBXBuildFile;
-			fileRef = 72E5DA2FEF73C3327A23CF3C;
+			fileRef = D12F4682601FBC9271FDF44E;
 		};
-		3796194FA8027C19C09E076B = {
+		7EE7B7024801EEB95799CC39 = {
 			isa = PBXBuildFile;
-			fileRef = 26163726AABDF93B616EF640;
+			fileRef = 1A6571AD47F64175A13F7FEE;
 		};
-		C1CD57A9252D7E2FBBB64489 = {
+		610A582ED1BF8244081E097A = {
 			isa = PBXBuildFile;
-			fileRef = 28F3C1507904F34640581195;
+			fileRef = ADC2941E361BF31EA1BC1F4D;
 		};
-		7813A93CA579B327B9A079FA = {
+		349C61F5FA87C454188F53E4 = {
 			isa = PBXBuildFile;
-			fileRef = 4FD3FC87435928F510983944;
+			fileRef = 294920307B280BD11BEDAD4D;
 		};
-		89AAAC516A22EC40F8D02BDB = {
+		CD0A2602C3403AA016E7349F = {
 			isa = PBXBuildFile;
-			fileRef = D9410B77F88385ECF29AE903;
+			fileRef = 2E6DAB147DB33D0CD425D42B;
 		};
 		4B4844502DC2734F6CDBD80F = {
 			isa = PBXBuildFile;
@@ -216,13 +216,6 @@
 			path = System/Library/Frameworks/Cocoa.framework;
 			sourceTree = SDKROOT;
 		};
-		05808AA6E6B516A67ECDDB55 = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.cpp.cpp;
-			name = NonlinearComponent.cpp;
-			path = ../../../../../../NDKCircuitTemplate/Source/NonlinearComponent.cpp;
-			sourceTree = "SOURCE_ROOT";
-		};
 		0AE5BFEAC38D3E486286EC83 = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.c.h;
@@ -237,6 +230,20 @@
 			path = "Info-VST3.plist";
 			sourceTree = "SOURCE_ROOT";
 		};
+		10BE00B784B07123CED96DB7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = StateSpaceProcessor.h;
+			path = ../../Source/StateSpaceProcessor.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		1134F702EEE628DFC2EBFDFA = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = ConstantMatrices.h;
+			path = ../../Source/ConstantMatrices.h;
+			sourceTree = "SOURCE_ROOT";
+		};
 		147613FFC5739B565E56A7B3 = {
 			isa = PBXFileReference;
 			lastKnownFileType = wrapper.framework;
@@ -244,18 +251,39 @@
 			path = System/Library/Frameworks/DiscRecording.framework;
 			sourceTree = SDKROOT;
 		};
-		18C7BEDDF37523A528F88BA2 = {
+		15EF2F6C1E246F6551F9E162 = {
 			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.cpp.cpp;
-			name = PluginProcessor.cpp;
-			path = ../../Source/PluginProcessor.cpp;
+			lastKnownFileType = sourcecode.c.h;
+			name = Npn2N2222.h;
+			path = ../../Source/Npn2N2222.h;
 			sourceTree = "SOURCE_ROOT";
 		};
-		26163726AABDF93B616EF640 = {
+		1A6571AD47F64175A13F7FEE = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.cpp.cpp;
 			name = NoNonlinearity.cpp;
-			path = ../../../../../../NDKCircuitTemplate/Source/NoNonlinearity.cpp;
+			path = ../../Source/NoNonlinearity.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
+		23139A6801873A76795B660F = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = NonlinearComponent.h;
+			path = ../../Source/NonlinearComponent.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		23734F82589FBE1AC4DC4155 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "include_juce_audio_plugin_client_VST3.cpp";
+			path = "../../JuceLibraryCode/include_juce_audio_plugin_client_VST3.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		2C25AA778B725C8A66800ABC = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_audio_plugin_client_AU_2.mm";
+			path = "../../JuceLibraryCode/include_juce_audio_plugin_client_AU_2.mm";
 			sourceTree = "SOURCE_ROOT";
 		};
 		7B93E9BDBEC959B2489B11A7 = {
@@ -286,18 +314,11 @@
 			path = System/Library/Frameworks/Carbon.framework;
 			sourceTree = SDKROOT;
 		};
-		23734F82589FBE1AC4DC4155 = {
+		18C7BEDDF37523A528F88BA2 = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.cpp.cpp;
-			name = "include_juce_audio_plugin_client_VST3.cpp";
-			path = "../../JuceLibraryCode/include_juce_audio_plugin_client_VST3.cpp";
-			sourceTree = "SOURCE_ROOT";
-		};
-		28F3C1507904F34640581195 = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.cpp.cpp;
-			name = Npn2N2222.cpp;
-			path = ../../../../../../NDKCircuitTemplate/Source/Npn2N2222.cpp;
+			name = PluginProcessor.cpp;
+			path = ../../Source/PluginProcessor.cpp;
 			sourceTree = "SOURCE_ROOT";
 		};
 		293C0EC29B1A111675A25A8B = {
@@ -307,11 +328,11 @@
 			path = "/Applications/JUCE/modules/juce_cryptography";
 			sourceTree = "<absolute>";
 		};
-		2C25AA778B725C8A66800ABC = {
+		294920307B280BD11BEDAD4D = {
 			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.cpp.objcpp;
-			name = "include_juce_audio_plugin_client_AU_2.mm";
-			path = "../../JuceLibraryCode/include_juce_audio_plugin_client_AU_2.mm";
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = StateSpaceProcessor.cpp;
+			path = ../../Source/StateSpaceProcessor.cpp;
 			sourceTree = "SOURCE_ROOT";
 		};
 		2E5C75BE18F65B0BAD3459BC = {
@@ -321,11 +342,18 @@
 			path = "../../JuceLibraryCode/include_juce_data_structures.mm";
 			sourceTree = "SOURCE_ROOT";
 		};
-		2E9DC555DCFAF9227A6DF78C = {
+		2E6DAB147DB33D0CD425D42B = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = Triode12AX7.cpp;
+			path = ../../Source/Triode12AX7.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
+		2F0673C36528EE2FDE80C955 = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.c.h;
-			name = NoNonlinearity.h;
-			path = ../../../../../../NDKCircuitTemplate/Source/NoNonlinearity.h;
+			name = Diode1N914.h;
+			path = ../../Source/Diode1N914.h;
 			sourceTree = "SOURCE_ROOT";
 		};
 		315D51419085F7F068836089 = {
@@ -335,18 +363,11 @@
 			path = ../../JuceLibraryCode/AppConfig.h;
 			sourceTree = "SOURCE_ROOT";
 		};
-		391E166B9E1DEA20E1FCD3C5 = {
+		3A90DAE2CEF81C17DE373BED = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.c.h;
-			name = Npn2N2222.h;
-			path = ../../../../../../NDKCircuitTemplate/Source/Npn2N2222.h;
-			sourceTree = "SOURCE_ROOT";
-		};
-		3DB454133A230ECCDF2C1FBE = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.cpp.cpp;
-			name = Diode1N914.cpp;
-			path = ../../../../../../NDKCircuitTemplate/Source/Diode1N914.cpp;
+			name = NoNonlinearity.h;
+			path = ../../Source/NoNonlinearity.h;
 			sourceTree = "SOURCE_ROOT";
 		};
 		430AAECEF9DF8151D6B3DC7F = {
@@ -362,20 +383,6 @@
 			name = "juce_graphics";
 			path = "/Applications/JUCE/modules/juce_graphics";
 			sourceTree = "<absolute>";
-		};
-		484C8424780647B2DE87E8EA = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.c.h;
-			name = CircuitParser.h;
-			path = ../../../../../../NDKCircuitTemplate/Source/CircuitParser.h;
-			sourceTree = "SOURCE_ROOT";
-		};
-		4FD3FC87435928F510983944 = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.cpp.cpp;
-			name = StateSpaceProcessor.cpp;
-			path = ../../../../../../NDKCircuitTemplate/Source/StateSpaceProcessor.cpp;
-			sourceTree = "SOURCE_ROOT";
 		};
 		53B454461F23033AAC4258A9 = {
 			isa = PBXFileReference;
@@ -405,20 +412,6 @@
 			path = "../../JuceLibraryCode/include_juce_audio_formats.mm";
 			sourceTree = "SOURCE_ROOT";
 		};
-		5E79D972244880720136352F = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.cpp.cpp;
-			name = NewtonRaphson.cpp;
-			path = ../../../../../../NDKCircuitTemplate/Source/NewtonRaphson.cpp;
-			sourceTree = "SOURCE_ROOT";
-		};
-		60B77688DA779DB4F33AE98B = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.cpp.cpp;
-			name = CircuitParser.cpp;
-			path = ../../../../../../NDKCircuitTemplate/Source/CircuitParser.cpp;
-			sourceTree = "SOURCE_ROOT";
-		};
 		62E21F88AC27B591FB4BED13 = {
 			isa = PBXFileReference;
 			lastKnownFileType = file;
@@ -440,11 +433,11 @@
 			path = "../../JuceLibraryCode/include_juce_gui_extra.mm";
 			sourceTree = "SOURCE_ROOT";
 		};
-		662A68E9E93EF7590FB0B589 = {
+		683939A06B02055B855753FD = {
 			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.c.h;
-			name = NonlinearSolver.h;
-			path = ../../../../../../NDKCircuitTemplate/Source/NonlinearSolver.h;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = Diode1N914.cpp;
+			path = ../../Source/Diode1N914.cpp;
 			sourceTree = "SOURCE_ROOT";
 		};
 		68BD76A8885B3F6CCC7FF5A9 = {
@@ -468,13 +461,6 @@
 			path = System/Library/Frameworks/Accelerate.framework;
 			sourceTree = SDKROOT;
 		};
-		6EB3B99CC27ACD4FD7D3A808 = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.cpp.cpp;
-			name = ConstantMatrices.cpp;
-			path = ../../../../../../NDKCircuitTemplate/Source/ConstantMatrices.cpp;
-			sourceTree = "SOURCE_ROOT";
-		};
 		720FB1ADE447E29BF7A7D01E = {
 			isa = PBXFileReference;
 			lastKnownFileType = wrapper.framework;
@@ -496,25 +482,11 @@
 			path = "/Applications/JUCE/modules/juce_audio_processors";
 			sourceTree = "<absolute>";
 		};
-		72E5DA2FEF73C3327A23CF3C = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.cpp.cpp;
-			name = NonlinearSolver.cpp;
-			path = ../../../../../../NDKCircuitTemplate/Source/NonlinearSolver.cpp;
-			sourceTree = "SOURCE_ROOT";
-		};
 		74F3AA3DD2D64555F2DFFAA8 = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.cpp.objcpp;
 			name = "include_juce_core.mm";
 			path = "../../JuceLibraryCode/include_juce_core.mm";
-			sourceTree = "SOURCE_ROOT";
-		};
-		778B5388349D151E9A9A1D34 = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.c.h;
-			name = NonlinearComponent.h;
-			path = ../../../../../../NDKCircuitTemplate/Source/NonlinearComponent.h;
 			sourceTree = "SOURCE_ROOT";
 		};
 		7823E6242788F83EBB085B08 = {
@@ -524,6 +496,20 @@
 			path = "../../JuceLibraryCode/include_juce_audio_basics.mm";
 			sourceTree = "SOURCE_ROOT";
 		};
+		7A0D432C5362EEE006FA9A6E = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = NonlinearComponentParser.h;
+			path = ../../Source/NonlinearComponentParser.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		7E1C6D454E43CEF9745A9B57 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = CircuitParser.h;
+			path = ../../Source/CircuitParser.h;
+			sourceTree = "SOURCE_ROOT";
+		};
 		7E55F13A9DBEE87B5E24BE55 = {
 			isa = PBXFileReference;
 			lastKnownFileType = text.plist.xml;
@@ -531,32 +517,18 @@
 			path = "Info-AU.plist";
 			sourceTree = "SOURCE_ROOT";
 		};
-		824FC337361157FE4B720CC7 = {
+		8D459633C24125F850B624A4 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = json.hpp;
+			path = ../../Source/json.hpp;
+			sourceTree = "SOURCE_ROOT";
+		};
+		8FAFB3355B3BD7F53EE4229E = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.cpp.cpp;
-			name = NonlinearComponentParser.cpp;
-			path = ../../../../../../NDKCircuitTemplate/Source/NonlinearComponentParser.cpp;
-			sourceTree = "SOURCE_ROOT";
-		};
-		826D7776B100F6100E8AE68C = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.c.h;
-			name = Diode1N914.h;
-			path = ../../../../../../NDKCircuitTemplate/Source/Diode1N914.h;
-			sourceTree = "SOURCE_ROOT";
-		};
-		84FD40D5591BA4142C976824 = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.c.h;
-			name = NonlinearComponentParser.h;
-			path = ../../../../../../NDKCircuitTemplate/Source/NonlinearComponentParser.h;
-			sourceTree = "SOURCE_ROOT";
-		};
-		8753F51E5FEC13632CACEEBC = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.c.h;
-			name = StateSpaceProcessor.h;
-			path = ../../../../../../NDKCircuitTemplate/Source/StateSpaceProcessor.h;
+			name = NonlinearComponent.cpp;
+			path = ../../Source/NonlinearComponent.cpp;
 			sourceTree = "SOURCE_ROOT";
 		};
 		925803DA406DA723504F6D31 = {
@@ -615,6 +587,13 @@
 			path = "../../JuceLibraryCode/include_juce_audio_plugin_client_AU.r";
 			sourceTree = "SOURCE_ROOT";
 		};
+		A694D28F0880A6DE50FFADC0 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = NonlinearComponentParser.cpp;
+			path = ../../Source/NonlinearComponentParser.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
 		AA28D3B90F0DA83D8723B645 = {
 			isa = PBXFileReference;
 			lastKnownFileType = wrapper.framework;
@@ -629,11 +608,18 @@
 			path = "/Applications/JUCE/modules/juce_audio_formats";
 			sourceTree = "<absolute>";
 		};
-		AC50097FE51C5F17BB3D5E0B = {
+		ADC2941E361BF31EA1BC1F4D = {
 			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.c.h;
-			name = Triode12AX7.h;
-			path = ../../../../../../NDKCircuitTemplate/Source/Triode12AX7.h;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = Npn2N2222.cpp;
+			path = ../../Source/Npn2N2222.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
+		B1019616846BC618B0942F4C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = NewtonRaphson.cpp;
+			path = ../../Source/NewtonRaphson.cpp;
 			sourceTree = "SOURCE_ROOT";
 		};
 		B4BB732FF0C8D8AF435C74D1 = {
@@ -650,11 +636,11 @@
 			path = "../../JuceLibraryCode/include_juce_audio_utils.mm";
 			sourceTree = "SOURCE_ROOT";
 		};
-		BF1209D40B514F3D9233D9E5 = {
+		B89FA4B101124606910235DC = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.c.h;
-			name = ConstantMatrices.h;
-			path = ../../../../../../NDKCircuitTemplate/Source/ConstantMatrices.h;
+			name = Triode12AX7.h;
+			path = ../../Source/Triode12AX7.h;
 			sourceTree = "SOURCE_ROOT";
 		};
 		C83DABBCFF53E0253681C111 = {
@@ -664,13 +650,6 @@
 			path = System/Library/Frameworks/QuartzCore.framework;
 			sourceTree = SDKROOT;
 		};
-		C858A552AF0283312E73B1BE = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.c.h;
-			name = NewtonRaphson.h;
-			path = ../../../../../../NDKCircuitTemplate/Source/NewtonRaphson.h;
-			sourceTree = "SOURCE_ROOT";
-		};
 		C85FF2F63827579B8A183A61 = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.cpp.objcpp;
@@ -678,11 +657,11 @@
 			path = "../../JuceLibraryCode/include_juce_cryptography.mm";
 			sourceTree = "SOURCE_ROOT";
 		};
-		C873564FF4DEE5506EB8C77D = {
+		C8CB63FEEE46F64AC0566327 = {
 			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.c.h;
-			name = json.hpp;
-			path = ../../../../../../NDKCircuitTemplate/Source/json.hpp;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = ConstantMatrices.cpp;
+			path = ../../Source/ConstantMatrices.cpp;
 			sourceTree = "SOURCE_ROOT";
 		};
 		CAC49FB3C0EAE902A061DF85 = {
@@ -692,12 +671,26 @@
 			path = "/Applications/JUCE/modules/juce_audio_plugin_client";
 			sourceTree = "<absolute>";
 		};
+		CEC02C590F5C25BCE24BEF13 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = CircuitParser.cpp;
+			path = ../../Source/CircuitParser.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
 		CEDD7530486E5A90BE963B54 = {
 			isa = PBXFileReference;
 			lastKnownFileType = wrapper.framework;
 			name = AudioToolbox.framework;
 			path = System/Library/Frameworks/AudioToolbox.framework;
 			sourceTree = SDKROOT;
+		};
+		D12F4682601FBC9271FDF44E = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = NonlinearSolver.cpp;
+			path = ../../Source/NonlinearSolver.cpp;
+			sourceTree = "SOURCE_ROOT";
 		};
 		D18B794A9FEA59DBBC53935F = {
 			isa = PBXFileReference;
@@ -720,11 +713,11 @@
 			path = "/Applications/JUCE/modules/juce_opengl";
 			sourceTree = "<absolute>";
 		};
-		D9410B77F88385ECF29AE903 = {
+		D60B82355E7B614DD725A727 = {
 			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.cpp.cpp;
-			name = Triode12AX7.cpp;
-			path = ../../../../../../NDKCircuitTemplate/Source/Triode12AX7.cpp;
+			lastKnownFileType = sourcecode.c.h;
+			name = NonlinearSolver.h;
+			path = ../../Source/NonlinearSolver.h;
 			sourceTree = "SOURCE_ROOT";
 		};
 		D970F76A01DBD04327268512 = {
@@ -740,6 +733,13 @@
 			name = "juce_audio_utils";
 			path = "/Applications/JUCE/modules/juce_audio_utils";
 			sourceTree = "<absolute>";
+		};
+		E30625E2112D68135A81F099 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = NewtonRaphson.h;
+			path = ../../Source/NewtonRaphson.h;
+			sourceTree = "SOURCE_ROOT";
 		};
 		E3CAD161F1735E8B1A7A90BE = {
 			isa = PBXFileReference;
@@ -807,29 +807,29 @@
 		95BA591EB255664C73CEA7E1 = {
 			isa = PBXGroup;
 			children = (
-				60B77688DA779DB4F33AE98B,
-				484C8424780647B2DE87E8EA,
-				6EB3B99CC27ACD4FD7D3A808,
-				BF1209D40B514F3D9233D9E5,
-				3DB454133A230ECCDF2C1FBE,
-				826D7776B100F6100E8AE68C,
-				C873564FF4DEE5506EB8C77D,
-				5E79D972244880720136352F,
-				C858A552AF0283312E73B1BE,
-				05808AA6E6B516A67ECDDB55,
-				778B5388349D151E9A9A1D34,
-				824FC337361157FE4B720CC7,
-				84FD40D5591BA4142C976824,
-				72E5DA2FEF73C3327A23CF3C,
-				662A68E9E93EF7590FB0B589,
-				26163726AABDF93B616EF640,
-				2E9DC555DCFAF9227A6DF78C,
-				28F3C1507904F34640581195,
-				391E166B9E1DEA20E1FCD3C5,
-				4FD3FC87435928F510983944,
-				8753F51E5FEC13632CACEEBC,
-				D9410B77F88385ECF29AE903,
-				AC50097FE51C5F17BB3D5E0B,
+				CEC02C590F5C25BCE24BEF13,
+				7E1C6D454E43CEF9745A9B57,
+				C8CB63FEEE46F64AC0566327,
+				1134F702EEE628DFC2EBFDFA,
+				683939A06B02055B855753FD,
+				2F0673C36528EE2FDE80C955,
+				8D459633C24125F850B624A4,
+				B1019616846BC618B0942F4C,
+				E30625E2112D68135A81F099,
+				8FAFB3355B3BD7F53EE4229E,
+				23139A6801873A76795B660F,
+				A694D28F0880A6DE50FFADC0,
+				7A0D432C5362EEE006FA9A6E,
+				D12F4682601FBC9271FDF44E,
+				D60B82355E7B614DD725A727,
+				1A6571AD47F64175A13F7FEE,
+				3A90DAE2CEF81C17DE373BED,
+				ADC2941E361BF31EA1BC1F4D,
+				15EF2F6C1E246F6551F9E162,
+				294920307B280BD11BEDAD4D,
+				10BE00B784B07123CED96DB7,
+				2E6DAB147DB33D0CD425D42B,
+				B89FA4B101124606910235DC,
 				18C7BEDDF37523A528F88BA2,
 				9E7886306D2799CBA43775B1,
 				D18B794A9FEA59DBBC53935F,
@@ -997,7 +997,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GENERATE_PKGINFO_FILE = YES;
 				HEADER_SEARCH_PATHS = (
-					"/Users/danielstrubig/SDK/VST_SDK/VST3_SDK",
+					"/Applications/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
 					"../../JuceLibraryCode",
 					"/Applications/JUCE/modules",
 					"/usr/local/include/eigen3/Eigen",
@@ -1050,7 +1050,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GENERATE_PKGINFO_FILE = YES;
 				HEADER_SEARCH_PATHS = (
-					"/Users/danielstrubig/SDK/VST_SDK/VST3_SDK",
+					"/Applications/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
 					"../../JuceLibraryCode",
 					"/Applications/JUCE/modules",
 					"/usr/local/include/eigen3/Eigen",
@@ -1103,7 +1103,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GENERATE_PKGINFO_FILE = YES;
 				HEADER_SEARCH_PATHS = (
-					"/Users/danielstrubig/SDK/VST_SDK/VST3_SDK",
+					"/Applications/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
 					"../../JuceLibraryCode",
 					"/Applications/JUCE/modules",
 					"/usr/local/include/eigen3/Eigen",
@@ -1117,7 +1117,7 @@
 				LIBRARY_STYLE = Bundle;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				OTHER_LDFLAGS = "-bundle -lRLCHighpassFilter";
-				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -d ppc64_$ppc64 -d x86_64_$x86_64 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I \"$(DEVELOPER_DIR)/Extras/CoreAudio/AudioUnits/AUPublic/AUBase\"";
+				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -d ppc64_$ppc64 -d x86_64_$x86_64 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I \"$(DEVELOPER_DIR)/Extras/CoreAudio/AudioUnits/AUPublic/AUBase\" -I \"$(DEVELOPER_DIR)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AudioUnit.framework/Headers\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.RLCHighpassFilter;
 				PRODUCT_NAME = "RLCHighpassFilter";
 				USE_HEADERMAP = NO;
@@ -1157,7 +1157,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GENERATE_PKGINFO_FILE = YES;
 				HEADER_SEARCH_PATHS = (
-					"/Users/danielstrubig/SDK/VST_SDK/VST3_SDK",
+					"/Applications/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
 					"../../JuceLibraryCode",
 					"/Applications/JUCE/modules",
 					"/usr/local/include/eigen3/Eigen",
@@ -1172,7 +1172,7 @@
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				OTHER_LDFLAGS = "-bundle -lRLCHighpassFilter";
-				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -d ppc64_$ppc64 -d x86_64_$x86_64 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I \"$(DEVELOPER_DIR)/Extras/CoreAudio/AudioUnits/AUPublic/AUBase\"";
+				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -d ppc64_$ppc64 -d x86_64_$x86_64 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I \"$(DEVELOPER_DIR)/Extras/CoreAudio/AudioUnits/AUPublic/AUBase\" -I \"$(DEVELOPER_DIR)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AudioUnit.framework/Headers\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.RLCHighpassFilter;
 				PRODUCT_NAME = "RLCHighpassFilter";
 				USE_HEADERMAP = NO;
@@ -1208,7 +1208,7 @@
 				);
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
-					"/Users/danielstrubig/SDK/VST_SDK/VST3_SDK",
+					"/Applications/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
 					"../../JuceLibraryCode",
 					"/Applications/JUCE/modules",
 					"/usr/local/include/eigen3/Eigen",
@@ -1255,7 +1255,7 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
-					"/Users/danielstrubig/SDK/VST_SDK/VST3_SDK",
+					"/Applications/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
 					"../../JuceLibraryCode",
 					"/Applications/JUCE/modules",
 					"/usr/local/include/eigen3/Eigen",
@@ -1303,7 +1303,7 @@
 				);
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
-					"/Users/danielstrubig/SDK/VST_SDK/VST3_SDK",
+					"/Applications/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
 					"../../JuceLibraryCode",
 					"/Applications/JUCE/modules",
 					"/usr/local/include/eigen3/Eigen",
@@ -1350,7 +1350,7 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
-					"/Users/danielstrubig/SDK/VST_SDK/VST3_SDK",
+					"/Applications/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
 					"../../JuceLibraryCode",
 					"/Applications/JUCE/modules",
 					"/usr/local/include/eigen3/Eigen",
@@ -1540,6 +1540,7 @@
 				4C0467C44FF819BFF7F0C468,
 				9479CEED08DEF59B028BAD0A,
 				A4B72C2F5F9D128791D7EB17,
+				6B0737A8862E9A78893AF9CB,
 				5DCB768B298AB1695A21FE9D,
 				845352EF15B608A580F9DA3C,
 				9C720D2D6484C16964AF146A,
@@ -1672,6 +1673,7 @@
 				4C0467C44FF819BFF7F0C468,
 				9479CEED08DEF59B028BAD0A,
 				A4B72C2F5F9D128791D7EB17,
+				6B0737A8862E9A78893AF9CB,
 				5DCB768B298AB1695A21FE9D,
 				845352EF15B608A580F9DA3C,
 				9C720D2D6484C16964AF146A,
@@ -1711,17 +1713,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDEE2BF81BF62F0C645B7FB5,
-				C52DF206A00C2EB2C138364C,
-				D04A57350F2C557093B0476F,
-				F2CCE6F81A8DA21F963DEE23,
-				02E0EBEFA9FA6B9E1F594A52,
-				FEDB43D88ADBB3C466D824F8,
-				62C82325FDCD325255621CF1,
-				3796194FA8027C19C09E076B,
-				C1CD57A9252D7E2FBBB64489,
-				7813A93CA579B327B9A079FA,
-				89AAAC516A22EC40F8D02BDB,
+				D49258A3E1F7F7120ECDA9DE,
+				8E0BE5AF4F44A444FE3E0FCB,
+				735E59F8DBDDB7B6BC749766,
+				C4022B18482D688F5261EE1B,
+				1C9E96815C15267872CB62D0,
+				EB8D3DAAE374794C67C9385A,
+				F66B6EC9AB19DF3D9221AFD0,
+				7EE7B7024801EEB95799CC39,
+				610A582ED1BF8244081E097A,
+				349C61F5FA87C454188F53E4,
+				CD0A2602C3403AA016E7349F,
 				4B4844502DC2734F6CDBD80F,
 				AE885D1155E9CA546C6901A3,
 				C3D40EF0CF9FFC2643CD8A41,
@@ -1758,7 +1760,7 @@
 		335AFCF2A585F0F5C32DEFAD = {
 			isa = PBXProject;
 			buildConfigurationList = 0979E9555F91770751EF3C20;
-			attributes = { LastUpgradeCheck = 0930; ORGANIZATIONNAME = ""; TargetAttributes = { AE1A0A2D29440551BAD0C121 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };DD5C28AB8B5C36046B0AD99F = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };529F6E48C113DB4CBAFD9EA5 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };93136EAF03D32539F4CF10A3 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };61C52A23C9AA55FF71EB0E42 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; }; }; };
+			attributes = { LastUpgradeCheck = 1100; ORGANIZATIONNAME = ""; TargetAttributes = { AE1A0A2D29440551BAD0C121 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };DD5C28AB8B5C36046B0AD99F = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };529F6E48C113DB4CBAFD9EA5 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };93136EAF03D32539F4CF10A3 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };61C52A23C9AA55FF71EB0E42 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; }; }; };
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
 			mainGroup = 31321102AEC9FAD9ABF5779F;

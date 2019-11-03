@@ -22,8 +22,7 @@ Vt = 0.02528;
 %{
 This is where we specify the functions for nonlinear currents.
 Our circuit has 2 NPN transistors. We use the Ebers-Moll equations for the 
-currents through the transistor.
-Jf is the jacobian that we need for finding a solution.
+currents through the transistor. 
 %}
 
 nlFunction = @(v) Is*[   

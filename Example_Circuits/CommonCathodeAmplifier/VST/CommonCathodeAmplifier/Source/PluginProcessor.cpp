@@ -95,7 +95,7 @@ void CommonCathodeAmplifierAudioProcessor::changeProgramName (int index, const S
 //==============================================================================
 void CommonCathodeAmplifierAudioProcessor::prepareToPlay (double sampleRate, int samplesPerBlock)
 {
-    stateSpaceProcessor = std::make_unique<StateSpaceProcessor>("/Users/danielstrubig 1/Documents/Project Spring19/NDKFramework/Evaluation/CommonCathodeAmplifier/Spice/CommonCathodeAmplifier.json", sampleRate);
+    stateSpaceProcessor = std::make_unique<StateSpaceProcessor>("/abs/path/to/file.json", sampleRate);
     // Use this method as the place to do any pre-playback
     // initialisation that you need..
 }

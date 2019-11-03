@@ -97,7 +97,7 @@ void WahWahAudioProcessor::prepareToPlay (double sampleRate, int samplesPerBlock
 {
     // Use this method as the place to do any pre-playback
     // initialisation that you need..
-    stateSpaceProcessor = std::make_unique<StateSpaceProcessor>("/Users/danielstrubig/Documents/Project_Spring_19/NDKFramework/Evaluation/WahWah/Spice/WahWah.json", sampleRate);
+    stateSpaceProcessor = std::make_unique<StateSpaceProcessor>("/abs/path/to/file.json", sampleRate);
     stateSpaceProcessor->printMatrices();
 }
 

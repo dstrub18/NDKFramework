@@ -95,7 +95,7 @@ void CommonEmitterAmplifierAudioProcessor::changeProgramName (int index, const S
 //==============================================================================
 void CommonEmitterAmplifierAudioProcessor::prepareToPlay (double sampleRate, int samplesPerBlock)
 {
-    stateSpaceProcessor = std::make_unique<StateSpaceProcessor>("/Users/danielstrubig 1/Documents/Project Spring19/NDKFramework/Evaluation/CommonEmitterAmplifier/Spice/CommonEmitterAmplifier.json", sampleRate);
+    stateSpaceProcessor = std::make_unique<StateSpaceProcessor>("/abs/path/to/file.json", sampleRate);
 }
 
 void CommonEmitterAmplifierAudioProcessor::releaseResources()

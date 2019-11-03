@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <JUCERPROJECT id="GE8OsZ" name="CommonCathodeAmplifier" projectType="audioplug"
-              jucerVersion="5.4.3" headerPath="/usr/local/include/eigen3/Eigen&#10;/usr/local/include/nlohmann&#10;">
+              jucerVersion="5.4.4" headerPath="/usr/local/include/eigen3/Eigen&#10;/usr/local/include/nlohmann&#10;">
   <MAINGROUP id="shEZhR" name="CommonCathodeAmplifier">
     <GROUP id="{9C538808-2845-040C-62DF-E2BB88FD9D71}" name="Source">
+      <FILE id="U9fjWv" name="CircuitParser.cpp" compile="1" resource="0"
+            file="Source/CircuitParser.cpp"/>
+      <FILE id="voDbLB" name="CircuitParser.h" compile="0" resource="0" file="Source/CircuitParser.h"/>
+      <FILE id="ECdrRd" name="ConstantMatrices.cpp" compile="1" resource="0"
+            file="Source/ConstantMatrices.cpp"/>
+      <FILE id="yIHDmy" name="ConstantMatrices.h" compile="0" resource="0"
+            file="Source/ConstantMatrices.h"/>
+      <FILE id="q8t6zn" name="Diode1N914.cpp" compile="1" resource="0" file="Source/Diode1N914.cpp"/>
+      <FILE id="rmYYZ9" name="Diode1N914.h" compile="0" resource="0" file="Source/Diode1N914.h"/>
+      <FILE id="LfzJ27" name="json.hpp" compile="0" resource="0" file="Source/json.hpp"/>
+      <FILE id="EvwHsV" name="NewtonRaphson.cpp" compile="1" resource="0"
+            file="Source/NewtonRaphson.cpp"/>
+      <FILE id="vaT7QP" name="NewtonRaphson.h" compile="0" resource="0" file="Source/NewtonRaphson.h"/>
+      <FILE id="CoIHEa" name="NonlinearComponent.cpp" compile="1" resource="0"
+            file="Source/NonlinearComponent.cpp"/>
+      <FILE id="FsXalb" name="NonlinearComponent.h" compile="0" resource="0"
+            file="Source/NonlinearComponent.h"/>
+      <FILE id="YoKaJZ" name="NonlinearComponentParser.cpp" compile="1" resource="0"
+            file="Source/NonlinearComponentParser.cpp"/>
+      <FILE id="H86zgQ" name="NonlinearComponentParser.h" compile="0" resource="0"
+            file="Source/NonlinearComponentParser.h"/>
+      <FILE id="cku1th" name="NonlinearSolver.cpp" compile="1" resource="0"
+            file="Source/NonlinearSolver.cpp"/>
+      <FILE id="aKkwmA" name="NonlinearSolver.h" compile="0" resource="0"
+            file="Source/NonlinearSolver.h"/>
+      <FILE id="Uq0rPB" name="NoNonlinearity.cpp" compile="1" resource="0"
+            file="Source/NoNonlinearity.cpp"/>
+      <FILE id="WnpK2w" name="NoNonlinearity.h" compile="0" resource="0"
+            file="Source/NoNonlinearity.h"/>
+      <FILE id="IBKzOz" name="Npn2N2222.cpp" compile="1" resource="0" file="Source/Npn2N2222.cpp"/>
+      <FILE id="WYhJdD" name="Npn2N2222.h" compile="0" resource="0" file="Source/Npn2N2222.h"/>
+      <FILE id="wNugvt" name="StateSpaceProcessor.cpp" compile="1" resource="0"
+            file="Source/StateSpaceProcessor.cpp"/>
+      <FILE id="yyXan0" name="StateSpaceProcessor.h" compile="0" resource="0"
+            file="Source/StateSpaceProcessor.h"/>
+      <FILE id="kcnmFX" name="Triode12AX7.cpp" compile="1" resource="0" file="Source/Triode12AX7.cpp"/>
+      <FILE id="N3GUTL" name="Triode12AX7.h" compile="0" resource="0" file="Source/Triode12AX7.h"/>
       <FILE id="mOdP4v" name="PluginProcessor.cpp" compile="1" resource="0"
             file="Source/PluginProcessor.cpp"/>
       <FILE id="ymuHoq" name="PluginProcessor.h" compile="0" resource="0"
             file="Source/PluginProcessor.h"/>
       <FILE id="BXQqXJ" name="PluginEditor.cpp" compile="1" resource="0"
             file="Source/PluginEditor.cpp"/>
-      <FILE id="AJ6Ikl" name="CircuitParser.cpp" compile="1" resource="0"
-            file="../../../../NDKCircuitTemplate/Source/CircuitParser.cpp"/>
-      <FILE id="oZp1S1" name="CircuitParser.h" compile="0" resource="0" file="../../../../NDKCircuitTemplate/Source/CircuitParser.h"/>
-      <FILE id="r1M9GN" name="ConstantMatrices.cpp" compile="1" resource="0"
-            file="../../../../NDKCircuitTemplate/Source/ConstantMatrices.cpp"/>
-      <FILE id="Za2RtS" name="ConstantMatrices.h" compile="0" resource="0"
-            file="../../../../NDKCircuitTemplate/Source/ConstantMatrices.h"/>
-      <FILE id="EPV3vP" name="Diode1N914.cpp" compile="1" resource="0" file="../../../../NDKCircuitTemplate/Source/Diode1N914.cpp"/>
-      <FILE id="ElrghS" name="Diode1N914.h" compile="0" resource="0" file="../../../../NDKCircuitTemplate/Source/Diode1N914.h"/>
-      <FILE id="VcJig1" name="json.hpp" compile="0" resource="0" file="../../../../NDKCircuitTemplate/Source/json.hpp"/>
-      <FILE id="S2uHru" name="NewtonRaphson.cpp" compile="1" resource="0"
-            file="../../../../NDKCircuitTemplate/Source/NewtonRaphson.cpp"/>
-      <FILE id="GoSM3c" name="NewtonRaphson.h" compile="0" resource="0" file="../../../../NDKCircuitTemplate/Source/NewtonRaphson.h"/>
-      <FILE id="lZHK89" name="NonlinearComponent.cpp" compile="1" resource="0"
-            file="../../../../NDKCircuitTemplate/Source/NonlinearComponent.cpp"/>
-      <FILE id="stsYF2" name="NonlinearComponent.h" compile="0" resource="0"
-            file="../../../../NDKCircuitTemplate/Source/NonlinearComponent.h"/>
-      <FILE id="kud2fO" name="NonlinearComponentParser.cpp" compile="1" resource="0"
-            file="../../../../NDKCircuitTemplate/Source/NonlinearComponentParser.cpp"/>
-      <FILE id="HZqlV2" name="NonlinearComponentParser.h" compile="0" resource="0"
-            file="../../../../NDKCircuitTemplate/Source/NonlinearComponentParser.h"/>
-      <FILE id="OBczp4" name="NonlinearSolver.cpp" compile="1" resource="0"
-            file="../../../../NDKCircuitTemplate/Source/NonlinearSolver.cpp"/>
-      <FILE id="niXwDt" name="NonlinearSolver.h" compile="0" resource="0"
-            file="../../../../NDKCircuitTemplate/Source/NonlinearSolver.h"/>
-      <FILE id="VCD9dw" name="NoNonlinearity.cpp" compile="1" resource="0"
-            file="../../../../NDKCircuitTemplate/Source/NoNonlinearity.cpp"/>
-      <FILE id="P2fRrQ" name="NoNonlinearity.h" compile="0" resource="0"
-            file="../../../../NDKCircuitTemplate/Source/NoNonlinearity.h"/>
-      <FILE id="tPWrTC" name="Npn2N2222.cpp" compile="1" resource="0" file="../../../../NDKCircuitTemplate/Source/Npn2N2222.cpp"/>
-      <FILE id="GC1qLT" name="Npn2N2222.h" compile="0" resource="0" file="../../../../NDKCircuitTemplate/Source/Npn2N2222.h"/>
-      <FILE id="WPTTYk" name="StateSpaceProcessor.cpp" compile="1" resource="0"
-            file="../../../../NDKCircuitTemplate/Source/StateSpaceProcessor.cpp"/>
-      <FILE id="tw8PSm" name="StateSpaceProcessor.h" compile="0" resource="0"
-            file="../../../../NDKCircuitTemplate/Source/StateSpaceProcessor.h"/>
-      <FILE id="KkcQse" name="Triode12AX7.cpp" compile="1" resource="0" file="../../../../NDKCircuitTemplate/Source/Triode12AX7.cpp"/>
-      <FILE id="RP8zXT" name="Triode12AX7.h" compile="0" resource="0" file="../../../../NDKCircuitTemplate/Source/Triode12AX7.h"/>
       <FILE id="mxnQPs" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
     </GROUP>
   </MAINGROUP>

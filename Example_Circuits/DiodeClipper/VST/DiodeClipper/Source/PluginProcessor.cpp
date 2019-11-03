@@ -97,7 +97,7 @@ void DiodeClipperAudioProcessor::prepareToPlay (double sampleRate, int samplesPe
 {
     // Use this method as the place to do any pre-playback
     // initialisation that you need..
-    stateSpaceProcessor = std::make_unique<StateSpaceProcessor>("/Users/danielstrubig 1/Documents/Project Spring19/NDKFramework/Evaluation/DiodeClipper/Spice/DiodeClipper.json", sampleRate);
+    stateSpaceProcessor = std::make_unique<StateSpaceProcessor>("/abs/path/to/file.json", sampleRate);
     stateSpaceProcessor->printMatrices();
 }
 

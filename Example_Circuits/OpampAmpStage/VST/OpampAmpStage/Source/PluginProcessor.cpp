@@ -95,7 +95,7 @@ void OpampAmpStageAudioProcessor::changeProgramName (int index, const String& ne
 //==============================================================================
 void OpampAmpStageAudioProcessor::prepareToPlay (double sampleRate, int samplesPerBlock)
 {
-    stateSpaceProcessor = std::make_unique<StateSpaceProcessor>("/Users/joakimborg/Documents/Utbildningar/AAU/WDF-VT2019/NDKFramework/Evaluation/OpampAmpStage/Spice/OpampAmpStage.json", sampleRate);
+    stateSpaceProcessor = std::make_unique<StateSpaceProcessor>("/abs/path/to/file.json", sampleRate);
 }
 
 void OpampAmpStageAudioProcessor::releaseResources()
