@@ -1,14 +1,14 @@
 # NDKFramework
-Repository of the NDKFramework as showcased at Audio Developer Conference 2019
+Repository of the NDKFramework as showcased at Audio Developer Conference 2019.
 
 ## Purpose
 
-Analog circuit emulations can be achieved using State-space processing. However, prototyping in this domain can be cumbersome, as the derivation of its computational components is non-modular. For each circuit iteration, the necessary matrices have to be computed anew. The NDKFramework reduces this modularity issue by automatically deriving the matrices from the netlist specifications of the circuit in the application LTSPice. A set of Matlab scripts and extensions to the JUCE framework allow for offline-debugging and real-time simulation of analog circuits.
+Analog circuit emulations can be achieved using State-Space processing. However, prototyping in this domain can be cumbersome, as the derivation of its computational components is non-modular. For each circuit iteration, the necessary matrices have to be computed anew. The NDKFramework reduces this modularity issue by automatically deriving the matrices from the netlist specifications of the circuit in the application LTSpice. A set of Matlab scripts and extensions to the JUCE framework allow for offline-debugging and real-time simulation of analog circuits.
 
 ## Dependencies
 
 The following applications are needed to use the NDKFramework: 
-* [LtSpice](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html)
+* [LTSpice](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html)
 * [MATLAB](https://www.mathworks.com/products/matlab.html). Optional but highly recommended for offline-debugging.
 * [JUCE](https://juce.com)
 
@@ -27,14 +27,14 @@ The NDKFramework facilitates the following workflow:
 3. Export the netlist to a .json file as follows:
     * Open the terminal
     * Type `python3 <relative-path-to-Main.py> <relative-path-to-netlist-file> <relative-desired-output-path> `
-4. Open the .json file in Matlab using the template files in this repository to 
+4. Open the .json file in Matlab using the template files in this repository.
     * As of now, you have to **explicitly** specify the equations for the nonlinear components you used in your circuit. Refer to the           example circuits.
 5. Open the NDKCircuitTemplate in the Projucer. in the `prepareToPlay()` method, specify the .json path in the stateSpaceProcessor constructor.
     * `stateSpaceProcessor = std::make_unique<StateSpaceProcessor>("path-to-file.json", sampleRate); `
 6. Build the project.
 
 ## Currently supported components
-* Voltage Sources
+* Voltage sources
 * Resistor
 * Potentiometers
 * Capacitor
