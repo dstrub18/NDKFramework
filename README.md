@@ -5,6 +5,8 @@ Repository of the NDKFramework as showcased at Audio Developer Conference 2019.
 
 Analog circuit emulations can be achieved using State-Space processing. However, prototyping in this domain can be cumbersome, as the derivation of its computational components is non-modular. For each circuit iteration, the necessary matrices have to be computed anew. The NDKFramework reduces this modularity issue by automatically deriving the matrices from the netlist specifications of the circuit in the application LTSpice. A set of Matlab scripts and extensions to the JUCE framework allow for offline-debugging and real-time simulation of analog circuits.
 
+A comprehensive report, including the mathematical background, implementation details as well as the outcomes of our evaluation can be found [here](https://github.com/dstrub18/NDKFramework/blob/master/doc/NDK_Framework_Academic_Report.pdf).
+
 ## Dependencies
 
 The following applications are needed to use the NDKFramework: 
