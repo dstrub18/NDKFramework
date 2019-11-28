@@ -25,10 +25,14 @@ The NDKFramework facilitates the following workflow:
 1. Design your circuit in LTSpice. Abide to the specified [naming conventions](https://github.com/dstrub18/NDKFramework/blob/master/README.md#naming-conventions) of the components, otherwise, they will not be parsed. Also refer to the list of [currently supported components](https://github.com/dstrub18/NDKFramework/blob/master/README.md#currently-supported-components).
 2. Save the netlist of your circuit as follows:
     * Right-click on the editing panel -> View -> SPICE Netlist
-    * CMD-S to save the netlist
+    * Now things get a bit quirky due to Spice's text encoding. Copy the entire text content to your clipboard
+    * Close LT-Spice. You can see that as soon as LT-Spice closes, the `.net` of the circuit file will disappear.
+    * Open a text editor and (VERY IMPORTANT) paste without styles (On Mac: `Option+Shift+Command+V`)
+    * Save the file, naming it `<yourCircuitName>.net`. This is a bit sketchy and lengthy, but we haven't found a workaround yet, that's as reliable as this method.
 3. Export the netlist to a .json file as follows:
     * Open the terminal
     * Type `python3 <relative-path-to-Main.py> <relative-path-to-netlist-file> <relative-desired-output-path> `
+    * (If you use the framework regularly, store the command above as an alias in your bashprofile)
 4. Open the .json file in Matlab using the template files in this repository.
     * Specify the path to the `.json `file. Also load an audio file as input.
     * As of now, you have to **explicitly** specify the equations for the nonlinear components you used in your circuit. For reference,         please look at the           [example circuits](https://github.com/dstrub18/NDKFramework/tree/master/Example_Circuits).
