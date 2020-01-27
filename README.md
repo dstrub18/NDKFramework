@@ -33,7 +33,7 @@ The NDKFramework facilitates the following workflow:
     * Open the terminal
     * Type `python3 <relative-path-to-Main.py> <relative-path-to-netlist-file> <relative-desired-output-path> `
     * (If you use the framework regularly, store the command above as an alias in your bashprofile)
-4. Open the .json file in Matlab using the template files in this repository.
+4. Open the `.json` file in Matlab using the template files in this repository.
     * Specify the path to the `.json `file. Also load an audio file as input.
     * As of now, you have to **explicitly** specify the equations for the nonlinear components you used in your circuit. For reference,         please look at the           [example circuits](https://github.com/dstrub18/NDKFramework/tree/master/Example_Circuits).
     * By running the simulation, you can see plots of voltages, currents, and states within the circuit
@@ -82,3 +82,9 @@ Opamp    := XUOPA<NAME> NI I  VCC   VEE   OUT   MODEL
 * For a comprehensive understanding of LTSpice abbreviations, please look [here](http://bwrcs.eecs.berkeley.edu/Classes/IcBook/SPICE/UserGuide/elements_fr.html?fbclid=IwAR1Vp1dBDk9oxgnC1lqnxfJvEzfL6ccTTzjXdqwHUVvBoiOIojku5Wr46lI).
 ## Potentiometer handling in C++
 * As of now, the only way to let the user change the circuit behavior is via potentiometers. These can be accessed by creating in a slider in the `PluginEditor` and call the function `StateSpaceProcessor::updatePotValues` with the corresponding index for each potentiometer.
+
+
+## References
+This project was mainly based on: 
+* [Physical Modelling of a Wah-wah Effect Pedal as a Case Study for Application of the Nodal DK Method to Circuits with Variable Parts](https://www.researchgate.net/publication/242020949_Physical_Modelling_of_a_Wah-wah_Effect_Pedal_as_a_Case_Study_for_Application_of_the_Nodal_DK_Method_to_Circuits_with_Variable_Parts/citations) by Martin Holters and Udo Zoelzer
+* [Automated Physical Modeling of Nonlinear Audio Circuits For Real-Time Audio Effects—Part I: Theoretical Development](https://www.researchgate.net/publication/224600978_Automated_Physical_Modeling_of_Nonlinear_Audio_Circuits_For_Real-Time_Audio_Effects-Part_I_Theoretical_Development) by David Yeh, Jonathan S Abel and Julius Smith
