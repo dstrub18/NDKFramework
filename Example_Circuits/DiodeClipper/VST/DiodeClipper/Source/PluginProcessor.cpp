@@ -24,6 +24,15 @@ DiodeClipperAudioProcessor::DiodeClipperAudioProcessor()
                        )
 #endif
 {
+    FileChooser fileChooser ("Select circuit json", File(), "*.json");
+
+    while (! jsonFile.existsAsFile())
+    {
+        if (fileChooser.browseForFileToOpen())
+            jsonFile = fileChooser.getResult();
+        else
+            DBG ("Please choose a file that exists...");
+    }
 }
 
 DiodeClipperAudioProcessor::~DiodeClipperAudioProcessor()
@@ -97,7 +106,7 @@ void DiodeClipperAudioProcessor::prepareToPlay (double sampleRate, int samplesPe
 {
     // Use this method as the place to do any pre-playback
     // initialisation that you need..
-    stateSpaceProcessor = std::make_unique<StateSpaceProcessor>("/abs/path/to/file.json", sampleRate);
+    stateSpaceProcessor = std::make_unique<StateSpaceProcessor>(jsonFile.getFullPathName().toStdString(), sampleRate);
     stateSpaceProcessor->printMatrices();
 }
 

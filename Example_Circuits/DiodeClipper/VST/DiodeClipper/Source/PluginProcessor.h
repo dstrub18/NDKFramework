@@ -57,6 +57,8 @@ public:
 
 private:
     std::unique_ptr<StateSpaceProcessor> stateSpaceProcessor;
+
+    File jsonFile;
     
 public:
     const std::unique_ptr<StateSpaceProcessor>& getStateSpaceProcessor() const;
