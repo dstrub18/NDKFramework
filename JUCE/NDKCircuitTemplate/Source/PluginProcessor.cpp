@@ -24,6 +24,15 @@ NdkcircuitTemplateAudioProcessor::NdkcircuitTemplateAudioProcessor()
                        )
 #endif
 {
+    FileChooser fileChooser ("Select circuit json", File(), "*.json");
+
+    while (! jsonFile.existsAsFile())
+    {
+        if (fileChooser.browseForFileToOpen())
+            jsonFile = fileChooser.getResult();
+        else
+            DBG ("Please choose a file that exists...");
+    }
 }
 
 NdkcircuitTemplateAudioProcessor::~NdkcircuitTemplateAudioProcessor()
@@ -95,7 +104,7 @@ void NdkcircuitTemplateAudioProcessor::changeProgramName (int index, const Strin
 //==============================================================================
 void NdkcircuitTemplateAudioProcessor::prepareToPlay (double sampleRate, int samplesPerBlock)
 {
-    stateSpaceProcessor = std::make_unique<StateSpaceProcessor>("/Users/danielstrubig 1/Documents/Project Spring19/NDKFramework/Evaluation/WahWah/Spice/WahWahPot.json", sampleRate);
+    stateSpaceProcessor = std::make_unique<StateSpaceProcessor>(jsonFile.getFullPathName().toStdString(), sampleRate);
     stateSpaceProcessor->printMatrices();
 }
 

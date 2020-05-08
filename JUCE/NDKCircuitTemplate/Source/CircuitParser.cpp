@@ -20,10 +20,10 @@
 CircuitParser::CircuitParser(std::string jsonPath){
 
     std::string temp = jsonPath;
-    char pathAsChars[temp.length()];
-    strcpy(pathAsChars, temp.c_str());
+    std::unique_ptr<char[]> pathAsChars (new char[temp.length()]);
+    strcpy(pathAsChars.get(), temp.c_str());
     
-    std::ifstream i(pathAsChars, std::ifstream::in); // Get json filepath from the console
+    std::ifstream i(pathAsChars.release(), std::ifstream::in); // Get json filepath from the console
 
     nlohmann::json jsonData;
 

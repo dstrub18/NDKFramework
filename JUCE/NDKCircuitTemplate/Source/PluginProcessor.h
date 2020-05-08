@@ -57,8 +57,9 @@ public:
     void setStateInformation (const void* data, int sizeInBytes) override;
 
 private:
-
     std::unique_ptr<StateSpaceProcessor> stateSpaceProcessor;
+    File jsonFile;
+    
 public:
     const std::unique_ptr<StateSpaceProcessor>& getStateSpaceProcessor() const;
 
